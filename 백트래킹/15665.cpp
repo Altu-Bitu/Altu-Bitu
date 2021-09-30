@@ -11,7 +11,7 @@ vector<int> answers;
 void backTracking(int depth){
     if(depth == M){
         for(int i=0; i < answers.size(); i++){
-            cout << answers[i];
+            cout << answers[i] << ' ';
         }
         cout << "\n";
         return ;
